@@ -1,0 +1,17 @@
+torch
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+mlflow
+uvicorn
+fastapi
+python-multipart
+streamlit
+faiss-cpu
+langdetect
+pytest
+black
+flake8
+gunicorn
