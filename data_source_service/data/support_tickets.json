@@ -1,0 +1,142 @@
+[
+    {
+        "ticket_id": "SUP-64380",
+        "customer": "user32@example.com",
+        "submitted": "2025-02-13T01:05:59",
+        "subject": "Connection problem",
+        "description": "I'm experiencing a billing issue. It started today. Please help. Details: Works as expected."
+    },
+    {
+        "ticket_id": "SUP-52611",
+        "customer": "user2@example.com",
+        "submitted": "2025-06-30T00:16:11",
+        "subject": "App crash",
+        "description": "I'm experiencing a password reset. It started today. Please help. Details: Screen is cracked."
+    },
+    {
+        "ticket_id": "SUP-32308",
+        "customer": "user21@example.com",
+        "submitted": "2025-02-05T05:51:57",
+        "subject": "Password reset",
+        "description": "I'm experiencing a feature missing. It started yesterday. Please help. Details: Fast delivery."
+    },
+    {
+        "ticket_id": "SUP-23232",
+        "customer": "user4@example.com",
+        "submitted": "2025-09-25T05:09:31",
+        "subject": "Password reset",
+        "description": "I'm experiencing a order cancellation. It started yesterday. Please help. Details: Arrived damaged."
+    },
+    {
+        "ticket_id": "SUP-90596",
+        "customer": "user26@example.com",
+        "submitted": "2025-09-26T22:13:49",
+        "subject": "Feature missing",
+        "description": "I'm experiencing a connection problem. It started today. Please help. Details: Not worth it."
+    },
+    {
+        "ticket_id": "SUP-24624",
+        "customer": "user21@example.com",
+        "submitted": "2025-10-06T18:22:52",
+        "subject": "Product defect",
+        "description": "I'm experiencing a billing issue. It started last week. Please help. Details: Easy to use."
+    },
+    {
+        "ticket_id": "SUP-49765",
+        "customer": "user36@example.com",
+        "submitted": "2025-09-30T18:32:13",
+        "subject": "Password reset",
+        "description": "I'm experiencing a feature missing. It started last week. Please help. Details: Screen is cracked."
+    },
+    {
+        "ticket_id": "SUP-79435",
+        "customer": "user10@example.com",
+        "submitted": "2025-12-19T23:09:39",
+        "subject": "Billing issue",
+        "description": "I'm experiencing a login error. It started last week. Please help. Details: Not worth it."
+    },
+    {
+        "ticket_id": "SUP-27141",
+        "customer": "user41@example.com",
+        "submitted": "2025-11-28T14:46:08",
+        "subject": "Order cancellation",
+        "description": "I'm experiencing a connection problem. It started last week. Please help. Details: Works as expected."
+    },
+    {
+        "ticket_id": "SUP-51538",
+        "customer": "user50@example.com",
+        "submitted": "2025-10-13T14:33:44",
+        "subject": "Billing issue",
+        "description": "I'm experiencing a product defect. It started today. Please help. Details: Fast delivery."
+    },
+    {
+        "ticket_id": "SUP-58560",
+        "customer": "user14@example.com",
+        "submitted": "2025-08-01T11:54:33",
+        "subject": "Feature missing",
+        "description": "I'm experiencing a billing issue. It started last week. Please help. Details: Not worth it."
+    },
+    {
+        "ticket_id": "SUP-97118",
+        "customer": "user16@example.com",
+        "submitted": "2025-09-22T17:10:01",
+        "subject": "Refund request",
+        "description": "I'm experiencing a order cancellation. It started yesterday. Please help. Details: Poor quality."
+    },
+    {
+        "ticket_id": "SUP-54860",
+        "customer": "user8@example.com",
+        "submitted": "2025-05-28T02:23:13",
+        "subject": "Login error",
+        "description": "I'm experiencing a shipping delay. It started today. Please help. Details: Highly recommend."
+    },
+    {
+        "ticket_id": "SUP-38215",
+        "customer": "user25@example.com",
+        "submitted": "2025-03-03T06:25:40",
+        "subject": "Billing issue",
+        "description": "I'm experiencing a connection problem. It started last week. Please help. Details: Easy to use."
+    },
+    {
+        "ticket_id": "SUP-84566",
+        "customer": "user34@example.com",
+        "submitted": "2025-02-10T03:45:02",
+        "subject": "Order cancellation",
+        "description": "I'm experiencing a connection problem. It started last week. Please help. Details: Not worth it."
+    },
+    {
+        "ticket_id": "SUP-80576",
+        "customer": "user2@example.com",
+        "submitted": "2025-07-08T09:40:54",
+        "subject": "Feature missing",
+        "description": "I'm experiencing a feature missing. It started yesterday. Please help. Details: Poor quality."
+    },
+    {
+        "ticket_id": "SUP-64893",
+        "customer": "user23@example.com",
+        "submitted": "2025-05-04T15:56:24",
+        "subject": "Shipping delay",
+        "description": "I'm experiencing a feature missing. It started today. Please help. Details: Highly recommend."
+    },
+    {
+        "ticket_id": "SUP-87979",
+        "customer": "user29@example.com",
+        "submitted": "2025-08-23T16:47:12",
+        "subject": "Password reset",
+        "description": "I'm experiencing a refund request. It started yesterday. Please help. Details: Battery life is amazing."
+    },
+    {
+        "ticket_id": "SUP-50784",
+        "customer": "user46@example.com",
+        "submitted": "2025-01-25T20:52:19",
+        "subject": "Product defect",
+        "description": "I'm experiencing a connection problem. It started last week. Please help. Details: Highly recommend."
+    },
+    {
+        "ticket_id": "SUP-94026",
+        "customer": "user44@example.com",
+        "submitted": "2025-10-27T16:06:59",
+        "subject": "Billing issue",
+        "description": "I'm experiencing a app crash. It started today. Please help. Details: Overpriced."
+    }
+]

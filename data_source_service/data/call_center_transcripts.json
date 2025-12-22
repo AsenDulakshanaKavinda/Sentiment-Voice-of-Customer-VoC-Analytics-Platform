@@ -1,0 +1,142 @@
+[
+    {
+        "call_id": "CALL-17080",
+        "caller": "+1-555-2408485",
+        "agent": "Agent16",
+        "date": "2025-09-14T17:20:29",
+        "transcript": "Agent6: Thank you for calling.\nCaller: My Wireless Earbuds has a feature missing.\nAgent2: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent15: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-83834",
+        "caller": "+1-555-4733097",
+        "agent": "Agent17",
+        "date": "2025-07-30T13:13:53",
+        "transcript": "Agent16: Thank you for calling.\nCaller: My Tablet has a product defect.\nAgent11: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent17: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-68969",
+        "caller": "+1-555-5967625",
+        "agent": "Agent12",
+        "date": "2025-11-24T05:07:23",
+        "transcript": "Agent5: Thank you for calling.\nCaller: My Smart Watch has a connection problem.\nAgent10: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent3: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-17977",
+        "caller": "+1-555-9669985",
+        "agent": "Agent11",
+        "date": "2025-11-01T14:55:09",
+        "transcript": "Agent15: Thank you for calling.\nCaller: My Tablet has a refund request.\nAgent9: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent1: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-60177",
+        "caller": "+1-555-5416983",
+        "agent": "Agent14",
+        "date": "2025-10-07T15:22:00",
+        "transcript": "Agent19: Thank you for calling.\nCaller: My Blender has a connection problem.\nAgent17: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent12: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-71383",
+        "caller": "+1-555-5280180",
+        "agent": "Agent7",
+        "date": "2025-09-14T19:58:33",
+        "transcript": "Agent16: Thank you for calling.\nCaller: My Laptop has a app crash.\nAgent8: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent18: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-31191",
+        "caller": "+1-555-7092051",
+        "agent": "Agent14",
+        "date": "2025-02-06T10:56:59",
+        "transcript": "Agent4: Thank you for calling.\nCaller: My Printer has a billing issue.\nAgent15: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent13: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-61997",
+        "caller": "+1-555-6523893",
+        "agent": "Agent12",
+        "date": "2025-09-19T18:06:44",
+        "transcript": "Agent1: Thank you for calling.\nCaller: My Camera has a order cancellation.\nAgent16: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent16: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-10284",
+        "caller": "+1-555-1845325",
+        "agent": "Agent13",
+        "date": "2025-06-19T23:58:55",
+        "transcript": "Agent1: Thank you for calling.\nCaller: My Smart Watch has a login error.\nAgent8: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent4: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-96649",
+        "caller": "+1-555-2305333",
+        "agent": "Agent20",
+        "date": "2025-07-24T14:31:39",
+        "transcript": "Agent9: Thank you for calling.\nCaller: My Headphones has a order cancellation.\nAgent20: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent5: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-23726",
+        "caller": "+1-555-3411921",
+        "agent": "Agent17",
+        "date": "2025-01-21T10:00:36",
+        "transcript": "Agent12: Thank you for calling.\nCaller: My Headphones has a shipping delay.\nAgent14: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent20: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-79680",
+        "caller": "+1-555-9069558",
+        "agent": "Agent5",
+        "date": "2025-10-21T04:19:21",
+        "transcript": "Agent5: Thank you for calling.\nCaller: My Tablet has a connection problem.\nAgent14: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent2: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-61521",
+        "caller": "+1-555-5612083",
+        "agent": "Agent18",
+        "date": "2025-09-07T10:17:38",
+        "transcript": "Agent8: Thank you for calling.\nCaller: My Headphones has a app crash.\nAgent16: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent6: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-45181",
+        "caller": "+1-555-6553371",
+        "agent": "Agent15",
+        "date": "2025-11-19T05:25:27",
+        "transcript": "Agent12: Thank you for calling.\nCaller: My Headphones has a refund request.\nAgent15: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent11: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-80908",
+        "caller": "+1-555-7750447",
+        "agent": "Agent11",
+        "date": "2025-01-22T01:00:30",
+        "transcript": "Agent19: Thank you for calling.\nCaller: My Smart Watch has a product defect.\nAgent13: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent16: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-18318",
+        "caller": "+1-555-6784655",
+        "agent": "Agent16",
+        "date": "2025-11-11T07:28:59",
+        "transcript": "Agent3: Thank you for calling.\nCaller: My Coffee Maker has a app crash.\nAgent18: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent11: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-55964",
+        "caller": "+1-555-7840164",
+        "agent": "Agent19",
+        "date": "2025-06-14T09:35:18",
+        "transcript": "Agent19: Thank you for calling.\nCaller: My Printer has a order cancellation.\nAgent10: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent9: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-46882",
+        "caller": "+1-555-9195519",
+        "agent": "Agent13",
+        "date": "2025-04-28T20:38:50",
+        "transcript": "Agent8: Thank you for calling.\nCaller: My Laptop has a refund request.\nAgent6: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent12: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-38109",
+        "caller": "+1-555-3808591",
+        "agent": "Agent20",
+        "date": "2025-11-14T16:02:18",
+        "transcript": "Agent9: Thank you for calling.\nCaller: My Laptop has a app crash.\nAgent19: I understand. Let me check your account.\nCaller: It's been happening since yesterday.\nAgent13: We'll send a replacement."
+    },
+    {
+        "call_id": "CALL-58612",
+        "caller": "+1-555-2856193",
+        "agent": "Agent15",
+        "date": "2025-02-16T17:11:06",
+        "transcript": "Agent13: Thank you for calling.\nCaller: My Camera has a password reset.\nAgent12: I understand. Let me check your account.\nCaller: It's been happening since last week.\nAgent18: We'll send a replacement."
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "session_id": "CHAT-99807",
+        "participants": "User14, Agent17",
+        "timestamp": "2025-01-29T08:18:48",
+        "transcript": "User43: Hi, I have an issue with Coffee Maker - billing issue.\nAgent1: Hello, sorry for the inconvenience. Can you provide more details?\nUser35: Yes, Highly recommend.\nAgent1: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-17989",
+        "participants": "User10, Agent19",
+        "timestamp": "2025-11-14T03:18:15",
+        "transcript": "User44: Hi, I have an issue with Camera - password reset.\nAgent19: Hello, sorry for the inconvenience. Can you provide more details?\nUser3: Yes, Works as expected.\nAgent19: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-23346",
+        "participants": "User7, Agent17",
+        "timestamp": "2025-07-01T17:40:19",
+        "transcript": "User3: Hi, I have an issue with Printer - connection problem.\nAgent15: Hello, sorry for the inconvenience. Can you provide more details?\nUser43: Yes, Works as expected.\nAgent2: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-31698",
+        "participants": "User2, Agent17",
+        "timestamp": "2025-03-25T22:40:54",
+        "transcript": "User16: Hi, I have an issue with Smartphone - app crash.\nAgent7: Hello, sorry for the inconvenience. Can you provide more details?\nUser19: Yes, Poor quality.\nAgent7: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-42307",
+        "participants": "User22, Agent19",
+        "timestamp": "2025-06-17T22:29:56",
+        "transcript": "User28: Hi, I have an issue with Blender - order cancellation.\nAgent3: Hello, sorry for the inconvenience. Can you provide more details?\nUser4: Yes, Arrived damaged.\nAgent1: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-78771",
+        "participants": "User20, Agent16",
+        "timestamp": "2025-11-30T11:27:22",
+        "transcript": "User46: Hi, I have an issue with Laptop - refund request.\nAgent7: Hello, sorry for the inconvenience. Can you provide more details?\nUser27: Yes, Overpriced.\nAgent18: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-58324",
+        "participants": "User20, Agent11",
+        "timestamp": "2025-03-20T16:51:37",
+        "transcript": "User49: Hi, I have an issue with Tablet - feature missing.\nAgent1: Hello, sorry for the inconvenience. Can you provide more details?\nUser3: Yes, Arrived damaged.\nAgent15: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-78422",
+        "participants": "User39, Agent10",
+        "timestamp": "2025-09-16T09:16:37",
+        "transcript": "User13: Hi, I have an issue with Camera - connection problem.\nAgent5: Hello, sorry for the inconvenience. Can you provide more details?\nUser24: Yes, Highly recommend.\nAgent9: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-36658",
+        "participants": "User30, Agent7",
+        "timestamp": "2025-12-05T13:32:46",
+        "transcript": "User17: Hi, I have an issue with Wireless Earbuds - app crash.\nAgent17: Hello, sorry for the inconvenience. Can you provide more details?\nUser26: Yes, Not worth it.\nAgent7: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-50891",
+        "participants": "User23, Agent17",
+        "timestamp": "2025-03-06T08:35:20",
+        "transcript": "User11: Hi, I have an issue with Blender - product defect.\nAgent8: Hello, sorry for the inconvenience. Can you provide more details?\nUser27: Yes, Screen is cracked.\nAgent3: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-54758",
+        "participants": "User13, Agent17",
+        "timestamp": "2025-01-21T06:54:10",
+        "transcript": "User27: Hi, I have an issue with Smart Watch - feature missing.\nAgent18: Hello, sorry for the inconvenience. Can you provide more details?\nUser16: Yes, Highly recommend.\nAgent6: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-98434",
+        "participants": "User34, Agent7",
+        "timestamp": "2025-07-21T20:46:24",
+        "transcript": "User18: Hi, I have an issue with Camera - product defect.\nAgent18: Hello, sorry for the inconvenience. Can you provide more details?\nUser21: Yes, Works as expected.\nAgent15: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-44236",
+        "participants": "User2, Agent2",
+        "timestamp": "2025-12-24T19:56:53",
+        "transcript": "User26: Hi, I have an issue with Wireless Earbuds - password reset.\nAgent2: Hello, sorry for the inconvenience. Can you provide more details?\nUser49: Yes, Screen is cracked.\nAgent5: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-99039",
+        "participants": "User45, Agent1",
+        "timestamp": "2025-01-09T20:43:49",
+        "transcript": "User26: Hi, I have an issue with Printer - refund request.\nAgent12: Hello, sorry for the inconvenience. Can you provide more details?\nUser20: Yes, Overpriced.\nAgent19: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-80257",
+        "participants": "User32, Agent3",
+        "timestamp": "2025-04-18T10:25:42",
+        "transcript": "User46: Hi, I have an issue with Printer - billing issue.\nAgent4: Hello, sorry for the inconvenience. Can you provide more details?\nUser31: Yes, Easy to use.\nAgent2: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-30936",
+        "participants": "User12, Agent11",
+        "timestamp": "2025-11-09T19:42:14",
+        "transcript": "User42: Hi, I have an issue with Wireless Earbuds - refund request.\nAgent20: Hello, sorry for the inconvenience. Can you provide more details?\nUser18: Yes, Arrived damaged.\nAgent11: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-26834",
+        "participants": "User43, Agent11",
+        "timestamp": "2025-09-24T10:39:52",
+        "transcript": "User5: Hi, I have an issue with Headphones - app crash.\nAgent20: Hello, sorry for the inconvenience. Can you provide more details?\nUser10: Yes, Arrived damaged.\nAgent3: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-88552",
+        "participants": "User34, Agent6",
+        "timestamp": "2025-11-01T06:58:02",
+        "transcript": "User4: Hi, I have an issue with Smart Watch - shipping delay.\nAgent9: Hello, sorry for the inconvenience. Can you provide more details?\nUser16: Yes, Easy to use.\nAgent19: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-71456",
+        "participants": "User38, Agent7",
+        "timestamp": "2025-02-02T15:31:26",
+        "transcript": "User16: Hi, I have an issue with Headphones - refund request.\nAgent3: Hello, sorry for the inconvenience. Can you provide more details?\nUser10: Yes, Screen is cracked.\nAgent4: Thanks, we'll resolve it soon."
+    },
+    {
+        "session_id": "CHAT-19808",
+        "participants": "User22, Agent13",
+        "timestamp": "2025-05-17T02:09:30",
+        "transcript": "User17: Hi, I have an issue with Camera - product defect.\nAgent20: Hello, sorry for the inconvenience. Can you provide more details?\nUser26: Yes, Not worth it.\nAgent8: Thanks, we'll resolve it soon."
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "reviewer": "User32",
+        "date": "2025-02-04T04:23:56",
+        "rating": 1,
+        "text": "The Smart Watch is mediocre. Arrived damaged. Overpriced."
+    },
+    {
+        "reviewer": "User34",
+        "date": "2025-08-31T05:58:31",
+        "rating": 3,
+        "text": "The Camera is decent. Fast delivery. Arrived damaged."
+    },
+    {
+        "reviewer": "User11",
+        "date": "2025-05-19T07:15:39",
+        "rating": 1,
+        "text": "The Smartphone is okay. Poor quality. Battery life is amazing."
+    },
+    {
+        "reviewer": "User15",
+        "date": "2025-06-26T23:59:42",
+        "rating": 3,
+        "text": "The Headphones is great. Highly recommend. Works as expected."
+    },
+    {
+        "reviewer": "User36",
+        "date": "2025-10-26T04:51:21",
+        "rating": 5,
+        "text": "The Printer is great. Fast delivery. Easy to use."
+    },
+    {
+        "reviewer": "User7",
+        "date": "2025-03-27T05:49:42",
+        "rating": 4,
+        "text": "The Camera is fantastic. Poor quality. Poor quality."
+    },
+    {
+        "reviewer": "User44",
+        "date": "2025-04-12T22:34:44",
+        "rating": 1,
+        "text": "The Laptop is bad. Screen is cracked. Arrived damaged."
+    },
+    {
+        "reviewer": "User17",
+        "date": "2025-08-25T01:30:26",
+        "rating": 4,
+        "text": "The Tablet is okay. Poor quality. Fast delivery."
+    },
+    {
+        "reviewer": "User34",
+        "date": "2025-05-18T08:55:05",
+        "rating": 3,
+        "text": "The Headphones is fantastic. Easy to use. Battery life is amazing."
+    },
+    {
+        "reviewer": "User44",
+        "date": "2025-11-17T23:32:38",
+        "rating": 1,
+        "text": "The Camera is bad. Battery life is amazing. Not worth it."
+    },
+    {
+        "reviewer": "User40",
+        "date": "2025-10-03T14:58:13",
+        "rating": 2,
+        "text": "The Laptop is fantastic. Fast delivery. Works as expected."
+    },
+    {
+        "reviewer": "User18",
+        "date": "2025-03-24T16:49:35",
+        "rating": 4,
+        "text": "The Coffee Maker is great. Poor quality. Works as expected."
+    },
+    {
+        "reviewer": "User39",
+        "date": "2025-05-20T18:12:57",
+        "rating": 3,
+        "text": "The Blender is decent. Works as expected. Highly recommend."
+    },
+    {
+        "reviewer": "User22",
+        "date": "2025-12-06T15:17:16",
+        "rating": 1,
+        "text": "The Blender is bad. Overpriced. Overpriced."
+    },
+    {
+        "reviewer": "User32",
+        "date": "2025-02-28T09:21:54",
+        "rating": 3,
+        "text": "The Coffee Maker is terrible. Screen is cracked. Overpriced."
+    },
+    {
+        "reviewer": "User9",
+        "date": "2025-05-17T10:56:35",
+        "rating": 5,
+        "text": "The Wireless Earbuds is excellent. Easy to use. Highly recommend."
+    },
+    {
+        "reviewer": "User24",
+        "date": "2025-06-15T04:00:11",
+        "rating": 2,
+        "text": "The Laptop is terrible. Works as expected. Easy to use."
+    },
+    {
+        "reviewer": "User26",
+        "date": "2025-05-28T17:23:58",
+        "rating": 3,
+        "text": "The Wireless Earbuds is excellent. Overpriced. Battery life is amazing."
+    },
+    {
+        "reviewer": "User22",
+        "date": "2025-02-24T16:13:35",
+        "rating": 1,
+        "text": "The Blender is terrible. Screen is cracked. Screen is cracked."
+    },
+    {
+        "reviewer": "User9",
+        "date": "2025-03-18T10:45:11",
+        "rating": 5,
+        "text": "The Blender is poor. Easy to use. Works as expected."
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "from": "user50@example.com",
+        "to": "support@company.com",
+        "date": "2025-07-21T19:58:17",
+        "subject": "Complaint: Login error",
+        "body": "Dear Support,\n\nI'm unhappy with the Camera. Overpriced. Please assist.\n\nRegards,\nUser22"
+    },
+    {
+        "from": "user5@example.com",
+        "to": "support@company.com",
+        "date": "2025-02-13T08:02:35",
+        "subject": "Complaint: Order cancellation",
+        "body": "Dear Support,\n\nI'm unhappy with the Smart Watch. Battery life is amazing. Please assist.\n\nRegards,\nUser32"
+    },
+    {
+        "from": "user29@example.com",
+        "to": "support@company.com",
+        "date": "2025-11-25T12:32:11",
+        "subject": "Complaint: App crash",
+        "body": "Dear Support,\n\nI'm unhappy with the Wireless Earbuds. Screen is cracked. Please assist.\n\nRegards,\nUser1"
+    },
+    {
+        "from": "user11@example.com",
+        "to": "support@company.com",
+        "date": "2025-05-16T00:06:17",
+        "subject": "Complaint: Feature missing",
+        "body": "Dear Support,\n\nI'm unhappy with the Coffee Maker. Not worth it. Please assist.\n\nRegards,\nUser19"
+    },
+    {
+        "from": "user30@example.com",
+        "to": "support@company.com",
+        "date": "2025-07-10T16:14:11",
+        "subject": "Complaint: Connection problem",
+        "body": "Dear Support,\n\nI'm unhappy with the Laptop. Battery life is amazing. Please assist.\n\nRegards,\nUser10"
+    },
+    {
+        "from": "user20@example.com",
+        "to": "support@company.com",
+        "date": "2025-10-07T06:29:26",
+        "subject": "Complaint: Password reset",
+        "body": "Dear Support,\n\nI'm unhappy with the Printer. Easy to use. Please assist.\n\nRegards,\nUser23"
+    },
+    {
+        "from": "user41@example.com",
+        "to": "support@company.com",
+        "date": "2025-05-06T02:12:54",
+        "subject": "Complaint: Product defect",
+        "body": "Dear Support,\n\nI'm unhappy with the Smart Watch. Easy to use. Please assist.\n\nRegards,\nUser33"
+    },
+    {
+        "from": "user12@example.com",
+        "to": "support@company.com",
+        "date": "2025-11-28T11:43:28",
+        "subject": "Complaint: Refund request",
+        "body": "Dear Support,\n\nI'm unhappy with the Headphones. Overpriced. Please assist.\n\nRegards,\nUser29"
+    },
+    {
+        "from": "user3@example.com",
+        "to": "support@company.com",
+        "date": "2025-12-19T14:57:41",
+        "subject": "Complaint: Connection problem",
+        "body": "Dear Support,\n\nI'm unhappy with the Wireless Earbuds. Not worth it. Please assist.\n\nRegards,\nUser3"
+    },
+    {
+        "from": "user5@example.com",
+        "to": "support@company.com",
+        "date": "2025-02-20T06:03:22",
+        "subject": "Complaint: App crash",
+        "body": "Dear Support,\n\nI'm unhappy with the Wireless Earbuds. Works as expected. Please assist.\n\nRegards,\nUser45"
+    },
+    {
+        "from": "user24@example.com",
+        "to": "support@company.com",
+        "date": "2025-11-14T04:52:15",
+        "subject": "Complaint: App crash",
+        "body": "Dear Support,\n\nI'm unhappy with the Coffee Maker. Works as expected. Please assist.\n\nRegards,\nUser7"
+    },
+    {
+        "from": "user14@example.com",
+        "to": "support@company.com",
+        "date": "2025-03-01T22:53:10",
+        "subject": "Complaint: Billing issue",
+        "body": "Dear Support,\n\nI'm unhappy with the Printer. Highly recommend. Please assist.\n\nRegards,\nUser13"
+    },
+    {
+        "from": "user24@example.com",
+        "to": "support@company.com",
+        "date": "2025-04-05T20:19:24",
+        "subject": "Complaint: Login error",
+        "body": "Dear Support,\n\nI'm unhappy with the Laptop. Not worth it. Please assist.\n\nRegards,\nUser7"
+    },
+    {
+        "from": "user38@example.com",
+        "to": "support@company.com",
+        "date": "2025-01-01T07:00:36",
+        "subject": "Complaint: Order cancellation",
+        "body": "Dear Support,\n\nI'm unhappy with the Smartphone. Easy to use. Please assist.\n\nRegards,\nUser6"
+    },
+    {
+        "from": "user1@example.com",
+        "to": "support@company.com",
+        "date": "2025-07-21T17:58:35",
+        "subject": "Complaint: Billing issue",
+        "body": "Dear Support,\n\nI'm unhappy with the Camera. Battery life is amazing. Please assist.\n\nRegards,\nUser4"
+    },
+    {
+        "from": "user22@example.com",
+        "to": "support@company.com",
+        "date": "2025-10-17T11:12:50",
+        "subject": "Complaint: Login error",
+        "body": "Dear Support,\n\nI'm unhappy with the Coffee Maker. Overpriced. Please assist.\n\nRegards,\nUser41"
+    },
+    {
+        "from": "user9@example.com",
+        "to": "support@company.com",
+        "date": "2025-07-06T17:32:39",
+        "subject": "Complaint: Connection problem",
+        "body": "Dear Support,\n\nI'm unhappy with the Headphones. Overpriced. Please assist.\n\nRegards,\nUser34"
+    },
+    {
+        "from": "user10@example.com",
+        "to": "support@company.com",
+        "date": "2025-01-21T16:42:49",
+        "subject": "Complaint: Billing issue",
+        "body": "Dear Support,\n\nI'm unhappy with the Headphones. Poor quality. Please assist.\n\nRegards,\nUser17"
+    },
+    {
+        "from": "user39@example.com",
+        "to": "support@company.com",
+        "date": "2025-03-10T19:51:10",
+        "subject": "Complaint: Refund request",
+        "body": "Dear Support,\n\nI'm unhappy with the Headphones. Works as expected. Please assist.\n\nRegards,\nUser22"
+    },
+    {
+        "from": "user6@example.com",
+        "to": "support@company.com",
+        "date": "2025-03-18T00:49:18",
+        "subject": "Complaint: Billing issue",
+        "body": "Dear Support,\n\nI'm unhappy with the Printer. Arrived damaged. Please assist.\n\nRegards,\nUser48"
+    }
+]
