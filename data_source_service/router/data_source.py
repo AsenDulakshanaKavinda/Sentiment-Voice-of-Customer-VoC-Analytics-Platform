@@ -5,7 +5,7 @@ from dotenv import load_dotenv; load_dotenv()
 
 from fastapi import APIRouter
 
-from data_source_service.handlers.call_logs_handler import handle_call_logs
+from data_source_service.handlers.source_handler import handle_source
 
 
 
@@ -14,12 +14,15 @@ from data_source_service.handlers.call_logs_handler import handle_call_logs
 router = APIRouter()
 @router.post("/start")
 def handle_call_logs_endpoint():
-    call_log_filepath = Path(os.getenv("CALL_LOG_FILEPATH"))
-    if not call_log_filepath:
-        raise RuntimeError(
-            "CALL_LOG_FILEPATH environment variable is not set"
-        )
-    handle_call_logs(filepath=call_log_filepath)
+    source_files = ['call_center_transcripts', 'chat_transcripts', 'emails', 'product_reviews', 'social_media', 'support_tickets']
+    data_dir = Path(os.getenv("SOURCE_FILEPATH"))
+    for source_file in source_files:
+        file_path = data_dir / f"{source_file}.json"
+        if file_path.exists():
+            handle_source(file_path)
+            return {"status": "success", "message": f"{source_file}logs saved successfully."}
+        return {"status": "error", "message": f"{source_file}logs failed to save."}
+    return {"status": "read the source"}
 
 
 

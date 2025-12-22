@@ -8,7 +8,7 @@ from data_source_service.schemas.call_logs import CallLogOut
 
 CALL_LOGS_URL = os.getenv("CALL_LOGS_URL")
 
-def senf_to_ingestor(payload: CallLogOut):
+def send_to_ingestor(payload: CallLogOut):
     response = requests.post(CALL_LOGS_URL, json=payload)
     response.raise_for_status()
 
