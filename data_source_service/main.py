@@ -26,7 +26,3 @@ app.include_router(
     prefix="/data_source",
     tags=["data_source"]
 )
-
-
-
-
