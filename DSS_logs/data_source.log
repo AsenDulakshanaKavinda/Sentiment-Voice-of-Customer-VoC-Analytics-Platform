@@ -1,0 +1,19 @@
+2025-12-23 10:34:33,222 | data-source-service | INFO | {'url': '/', 'method': 'GET'}
+2025-12-23 11:15:58,864 | data-source-service | INFO | {'url': '/', 'method': 'GET'}
+2025-12-23 11:16:04,185 | data-source-service | INFO | {'url': '/docs', 'method': 'GET'}
+2025-12-23 11:16:05,152 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET'}
+2025-12-23 11:47:56,667 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.011528491973876953}
+2025-12-23 11:47:59,633 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.0009975433349609375}
+2025-12-23 11:48:09,254 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0010135173797607422}
+2025-12-23 11:48:09,567 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.0020003318786621094}
+
+
+
+
+
+
+
+
+2025-12-23 12:43:45,387 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.018002033233642578}
+2025-12-23 12:43:45,571 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.0009942054748535156}
+2025-12-23 12:44:00,847 | data-source-service | INFO | {'url': '/data_source/start', 'method': 'GET', 'duration': 0.0}

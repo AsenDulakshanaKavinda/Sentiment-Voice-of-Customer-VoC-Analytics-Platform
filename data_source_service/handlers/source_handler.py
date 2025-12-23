@@ -4,16 +4,17 @@ import json
 from pathlib import Path
 
 
-from data_source_service.clients.call_logs_client import senf_to_ingestor
+from data_source_service.clients.logs_client import send_to_ingestor
 
-def handle_call_logs(filepath: Path) -> None:
+def handle_source(filepath: Path) -> None:
+    """ Read all the source files, and handle logs.(send to other services) """
     try:
         with open(filepath) as json_file:
             logs = json.load(json_file)
 
         if logs:
             for log in logs:
-                senf_to_ingestor(log)
+                send_to_ingestor(log)
             print(f"read: {len(logs)} logs")
         else:
             print("no logs")
@@ -25,9 +26,7 @@ def handle_call_logs(filepath: Path) -> None:
         print(f'JSON decode error: {e}')
 
 
-if __name__ == '__main__':
-    filepath = Path(__file__).resolve().parent / 'call_logs.json'
-    handle_call_logs(filepath)
+
 
 
 
