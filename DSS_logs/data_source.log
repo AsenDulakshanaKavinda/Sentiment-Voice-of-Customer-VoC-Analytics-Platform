@@ -14,3 +14,6 @@
 
 
 
+2025-12-23 12:43:45,387 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.018002033233642578}
+2025-12-23 12:43:45,571 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.0009942054748535156}
+2025-12-23 12:44:00,847 | data-source-service | INFO | {'url': '/data_source/start', 'method': 'GET', 'duration': 0.0}

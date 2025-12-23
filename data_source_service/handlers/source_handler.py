@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 
-from data_source_service.clients.call_logs_client import send_to_ingestor
+from data_source_service.clients.logs_client import send_to_ingestor
 
 def handle_source(filepath: Path) -> None:
     """ Read all the source files, and handle logs.(send to other services) """
@@ -26,9 +26,7 @@ def handle_source(filepath: Path) -> None:
         print(f'JSON decode error: {e}')
 
 
-if __name__ == '__main__':
-    filepath = Path(__file__).resolve().parent / 'chat_transcripts.json'
-    handle_source(filepath)
+
 
 
 
