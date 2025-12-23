@@ -1,7 +1,8 @@
 
 from fastapi import FastAPI, Request, Response
 from data_source_service.router.data_source import router
-
+from data_source_service.middleware.log_middleware import log_middleware
+from starlette.middleware.base import BaseHTTPMiddleware
 from data_source_service.utils.logger_config import log
 
 app = FastAPI(
@@ -11,18 +12,12 @@ app = FastAPI(
     docs_url="/docs"
 )
 
-@app.middleware("http")
-async def middleware(request: Request, call_next):
-    log_dict = {
-        'url': request.url.path,
-        'method': request.method,
-    }
-    log.info(log_dict)
+# middleware
+app.add_middleware(
+    BaseHTTPMiddleware, dispatch=log_middleware,
+)
 
-    response = await call_next(request)
-    return response
-
-@app.get("/")
+@app.get("/", description='Root')
 async def root():
     return {"message": "Welcome to Service of the Voice Of Customer Analytics Platform's 'Data Source Service'! Visit /docs for the API documentation."}
 

@@ -7,6 +7,7 @@ from pathlib import Path
 from data_source_service.clients.call_logs_client import send_to_ingestor
 
 def handle_source(filepath: Path) -> None:
+    """ Read all the source files, and handle logs.(send to other services) """
     try:
         with open(filepath) as json_file:
             logs = json.load(json_file)
