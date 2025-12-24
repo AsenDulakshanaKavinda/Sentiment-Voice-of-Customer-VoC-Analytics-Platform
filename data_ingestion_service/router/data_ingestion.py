@@ -11,6 +11,17 @@ router = APIRouter()
 async def start_ingestion(request: Request):
     try:
         payload = await request.json()
+
+        # to-dos
+        # - 1. Remove noise (HTML, emojis, spam) - use `re`
+        # - 2. Anonymize PII (emails, phone numbers)
+        # - 2. Language detection - `pycld2' - `re`
+        # - 4. Translate to a common language - `googletrans`
+        # - 5. Handle slang, abbreviations - `re`
+
+
+
+
         log.info(f"payload: {payload}")
         return {
             "status": "success",
