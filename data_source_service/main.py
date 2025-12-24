@@ -3,7 +3,7 @@ from fastapi import FastAPI, Request, Response
 from data_source_service.router.data_source import router
 from data_source_service.middleware.log_middleware import log_middleware
 from starlette.middleware.base import BaseHTTPMiddleware
-from data_source_service.utils.logger_config import log
+
 
 app = FastAPI(
     title="Data Source Service of the Voice Of Customer Analytics Platform",

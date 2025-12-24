@@ -2,3 +2,28 @@
 2025-12-24 07:46:04,143 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.002522706985473633}
 2025-12-24 07:52:29,306 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.0035147666931152344}
 2025-12-24 08:00:08,513 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.013085603713989258}
+2025-12-24 18:03:43,070 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.0499725341796875}
+2025-12-24 18:03:45,858 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.001163482666015625}
+2025-12-24 19:26:15,593 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0}
+2025-12-24 19:26:16,340 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.09099793434143066}
+2025-12-24 19:26:57,408 | data-source-service | ERROR | error processing payload: Expecting value: line 1 column 1 (char 0)
+2025-12-24 19:26:57,415 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.07518887519836426}
+2025-12-24 19:38:15,712 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0010006427764892578}
+2025-12-24 19:38:16,341 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.0030066967010498047}
+2025-12-24 19:38:22,494 | data-source-service | ERROR | error processing payload: Expecting value: line 1 column 1 (char 0)
+2025-12-24 19:38:22,496 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.013104677200317383}
+2025-12-24 19:38:39,601 | data-source-service | ERROR | error processing payload: Expecting value: line 1 column 1 (char 0)
+2025-12-24 19:38:39,602 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.0025284290313720703}
+2025-12-24 19:47:14,346 | data-source-service | ERROR | error processing payload: Expecting value: line 1 column 1 (char 0)
+2025-12-24 19:47:14,348 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.015584468841552734}
+2025-12-24 19:47:44,684 | data-source-service | ERROR | error processing payload: Expecting value: line 1 column 1 (char 0)
+2025-12-24 19:47:44,688 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.00600433349609375}
+2025-12-24 19:49:09,287 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'PATCH', 'duration': 0.0009984970092773438}
+2025-12-24 19:49:17,059 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-24 19:49:17,060 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.0030100345611572266}
+2025-12-24 19:49:37,605 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-24 19:49:37,606 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.0029935836791992188}
+2025-12-24 19:49:40,007 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-24 19:49:40,009 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.002505779266357422}
+2025-12-24 19:49:41,705 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-24 19:49:41,708 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.0035276412963867188}
