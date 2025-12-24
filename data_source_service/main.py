@@ -19,7 +19,7 @@ app.add_middleware(
 
 @app.get("/", description='Root')
 async def root():
-    return {"message": "Welcome to Service of the Voice Of Customer Analytics Platform's 'Data Source Service'! Visit /docs for the API documentation."}
+    return {"message": "Welcome to Data Source Service of the Voice Of Customer Analytics Platform's 'Data Source Service'! Visit /docs for the API documentation."}
 
 app.include_router(
     router,

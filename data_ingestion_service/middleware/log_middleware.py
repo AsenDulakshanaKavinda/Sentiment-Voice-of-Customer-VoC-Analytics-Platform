@@ -1,7 +1,7 @@
 import time
 
 from fastapi import Request
-from data_source_service.utils.logger_config import log
+from data_ingestion_service.utils.logger_config import log
 
 
 async def log_middleware(request: Request, call_next):

@@ -17,3 +17,16 @@
 2025-12-23 12:43:45,387 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.018002033233642578}
 2025-12-23 12:43:45,571 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.0009942054748535156}
 2025-12-23 12:44:00,847 | data-source-service | INFO | {'url': '/data_source/start', 'method': 'GET', 'duration': 0.0}
+2025-12-24 07:39:29,636 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.013541698455810547}
+2025-12-24 07:39:41,115 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.0}
+2025-12-24 07:39:45,787 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.0014548301696777344}
+2025-12-24 07:39:54,618 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0005233287811279297}
+2025-12-24 07:39:55,022 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.0019989013671875}
+2025-12-24 07:40:33,617 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0}
+2025-12-24 07:40:33,995 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.002015352249145508}
+2025-12-24 07:41:05,132 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0010030269622802734}
+2025-12-24 07:41:05,512 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.002002239227294922}
+2025-12-24 07:41:44,904 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0009999275207519531}
+2025-12-24 07:41:45,248 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.004376411437988281}
+2025-12-24 07:43:52,431 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.001001119613647461}
+2025-12-24 07:43:53,019 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.0070514678955078125}
