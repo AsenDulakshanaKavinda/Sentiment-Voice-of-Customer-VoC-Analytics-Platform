@@ -5,7 +5,7 @@ import sys
 from logging.handlers import RotatingFileHandler
 
 
-def get_logger(name: str = 'data-source-service'):
+def get_logger(name: str = 'data-ingestion-service'):
 
     logger = logging.getLogger(name)
     if not logger.handlers:
