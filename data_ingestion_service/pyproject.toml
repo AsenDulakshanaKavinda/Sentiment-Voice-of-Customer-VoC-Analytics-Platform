@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "blingfire>=0.1.8",
     "deep-translator>=1.11.4",
     "fastapi>=0.127.0",
     "googletrans>=4.0.2",

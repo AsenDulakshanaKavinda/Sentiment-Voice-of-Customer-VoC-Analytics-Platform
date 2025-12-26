@@ -12,6 +12,7 @@ def get_logger(name: str = 'data-ingestion-service'):
 
         # 1. setup console handler
         console_handler = logging.StreamHandler(stream=sys.stdout)
+        console_handler.stream.reconfigure(encoding="utf-8", errors="replace")
         console_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s | %(levelname)s | %(message)s'))
         logger.addHandler(console_handler)
 
