@@ -8,7 +8,7 @@ from data_ingestion_service.utils.logger_config import log
 from data_ingestion_service.utils.exception_config import ProjectException
 
 
-@tool
+# @tool
 def detect_language_translate(text: str):
     """Detects languages in the provided text, which may contain segments in multiple languages.
     Returns a structured dictionary where keys are text segments and values include the language name and code."""
@@ -49,7 +49,7 @@ def detect_language_translate(text: str):
                 "translated_sentences": translated_sentences,
             }
 
-            log.info(f"Segment: {segment[:10]}")
+        log.info("Language detecting and translating completed.")
 
         return extract_sentences
     except Exception as e:
@@ -60,7 +60,7 @@ def detect_language_translate(text: str):
 
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # uncomment if only need to test the `detect_language` function
     # text = "Bonjour le monde! Ceci est une phrase en français. හල වර්ගය. நான் உன்னை காதலி்கிறேன்"
     # extract_sentences = detect_language_translate(text)
