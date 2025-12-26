@@ -27,3 +27,11 @@
 2025-12-24 19:49:40,009 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.002505779266357422}
 2025-12-24 19:49:41,705 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
 2025-12-24 19:49:41,708 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.0035276412963867188}
+2025-12-26 10:21:24,198 | data-source-service | INFO | {'url': '/', 'method': 'GET', 'duration': 0.026616811752319336}
+2025-12-26 10:21:27,269 | data-source-service | INFO | {'url': '/favicon.ico', 'method': 'GET', 'duration': 0.001001596450805664}
+2025-12-26 10:21:31,687 | data-source-service | INFO | {'url': '/docs', 'method': 'GET', 'duration': 0.0010035037994384766}
+2025-12-26 10:21:32,147 | data-source-service | INFO | {'url': '/openapi.json', 'method': 'GET', 'duration': 0.021140098571777344}
+2025-12-26 10:38:04,969 | data-source-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-26 10:38:04,972 | data-source-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.007004261016845703}
+2025-12-26 10:38:51,469 | data-ingestion-service | INFO | payload: {'id': '12345', 'timestamp': '2025-12-24T12:00:00Z', 'content': 'Sample log entry', 'source': 'call_center_transcripts'}
+2025-12-26 10:38:51,470 | data-ingestion-service | INFO | {'url': '/data_ingestion/start', 'method': 'POST', 'duration': 0.008524179458618164}
