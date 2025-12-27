@@ -6,6 +6,7 @@ from data_ingestion_service.router.data_ingestion import router
 from data_ingestion_service.middleware.log_middleware import log_middleware
 from starlette.middleware.base import BaseHTTPMiddleware
 
+
 app = FastAPI(
     title="Data Ingestion Service of the Voice Of Customer Analytics Platform",
     description="This service handle the data by cleaning and reorganize to a common schema.",

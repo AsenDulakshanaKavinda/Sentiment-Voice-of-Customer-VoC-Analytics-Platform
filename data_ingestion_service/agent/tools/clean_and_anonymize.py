@@ -1,7 +1,5 @@
 import re
 
-from langsmith import expect
-
 from data_ingestion_service.utils.logger_config import log
 from data_ingestion_service.utils.exception_config import ProjectException
 from langchain.tools import tool
