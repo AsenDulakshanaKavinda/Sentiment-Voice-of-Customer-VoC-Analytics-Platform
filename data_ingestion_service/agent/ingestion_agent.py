@@ -1,53 +1,4 @@
 
-"""
-from jedi import Project
-from langchain_core.messages import AIMessage
-
-from data_ingestion_service.utils.logger_config import log
-from data_ingestion_service.utils.exception_config import ProjectException
-from data_ingestion_service.agent.prompts.prompt import data_ingestion_prompt
-from data_ingestion_service.agent.clients.client import loaded_model_with_tools
-
-def ingest_logs(log_data):
-    """  """
-
-    try:
-
-        # create a simple LCEL chain
-        chain = data_ingestion_prompt | loaded_model_with_tools
-        log.info("ingesting logs chain created")
-
-        messages = [{"log_data": log_data}]
-
-        # invoke the chain with log data
-        result = chain.invoke(messages)
-        log.info("Invoking data ingestion chian")
-
-        # handle the tool calls
-        while isinstance(result, AIMessage) and result.tool_calls:
-            messages.append(result)
-
-
-
-
-
-
-
-
-
-
-    except Exception as e:
-        ProjectException(
-            e,
-            context={
-                "operation": "ingest_logs",
-                "message": "ingesting logs failed",
-            }
-        )
-
-"""
-
-from jedi import Project
 import json
 
 from data_ingestion_service.utils.logger_config import log
@@ -106,7 +57,7 @@ def ingest_logs(log_data):
                 tool_id = tool_call["id"]
 
                 if tool_name in tools_dict:
-                    tool_result = tools_dict[tool_name](**tool_args)
+                    tool_result = tools_dict[tool_name].invoke(tool_args)
                 else:
                     tool_result = "Tool not found."
 
@@ -119,7 +70,8 @@ def ingest_logs(log_data):
             # Re-invoke the model (not the full chain) with updated messages
             result = loaded_model_with_tools.invoke(messages)
 
-        log.info(f'result: {result}')
+        log.info(f'result: {result.content}')
+        log.info("Invoking data ingestion complete...")
 
         return result
 

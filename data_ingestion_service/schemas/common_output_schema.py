@@ -6,7 +6,8 @@ class Metadata(BaseModel):
     rating: float = Field(..., description="The rating of the source, only from the reviews")
     subject: str = Field(..., description="The subject of the source, only from the emails")
     platform: str = Field(..., description="The platform of the source, only from the social medias")
-    session_id: str = Field(..., description="The session id of the source, only from the chats/calls")
+    log_id: str = Field(..., description="Any id use to identify the log")
+    dis_agent_message: str = Field(..., description="summarize message from the Data Ingestion Service age t")
 
 
 class CommonOutputSchema(BaseModel):

@@ -1,14 +1,14 @@
 from deep_translator import GoogleTranslator
 from langchain.tools import tool
 import pycld2 as cld2
-import re
+import unicodedata
 from blingfire import text_to_sentences
 
 from data_ingestion_service.utils.logger_config import log
 from data_ingestion_service.utils.exception_config import ProjectException
 
 
-# @tool
+@tool
 def detect_language_translate(text: str):
     """Detects languages in the provided text, which may contain segments in multiple languages.
     Returns a structured dictionary where keys are text segments and values include the language name and code."""
@@ -21,7 +21,8 @@ def detect_language_translate(text: str):
     try:
         extract_sentences = {}
 
-        is_reliable, _, _, vectors = cld2.detect(text, returnVectors=True)
+        clean_text = sanitize_text(text)
+        is_reliable, _, _, vectors = cld2.detect(clean_text, returnVectors=True)
 
         # Correct extraction using byte slicing
         text_bytes = text.encode('utf-8')
@@ -56,6 +57,28 @@ def detect_language_translate(text: str):
         ProjectException(
             e,
             context={"operation": "detect_language", "text": text},
+        )
+
+
+# helper function
+def sanitize_text(text: str) -> str:
+    # Sanitize BEFORE language detection
+
+    if not isinstance(text, str):
+        text = str(text)
+
+    try:
+        # normalize the unicode
+        text = unicodedata.normalize("NFKC", text)
+
+        # Remove invalid UTF-8 characters safely
+        text = text.encode("utf-8", errors="ignore").decode("utf-8")
+
+        return text
+    except Exception as e:
+        ProjectException(
+            e,
+            context={"operation": "sanitize_text", "message": "error sanitizing text"},
         )
 
 

@@ -21,14 +21,14 @@ async def start_ingestion(request: Request):
         log.info(f"payload: {payload}")
 
         result = ingest_logs(payload)
-        log.info(f"result: {result}")
+        log.info("Invoking data ingestion complete...")
 
-
+        # todo - send result to sentiment analyze
 
         return {
             "status": "success",
             "statusCode": 200,
-            "message": "payload received and logged",
+            "message": "payload received and Ingested",
         }
     except Exception as e:
         log.error(f"error processing payload: {str(e)}")
