@@ -4,8 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/data_ingestion_service/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/data_source_service/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/data_ingestion_service/DIS_logs" />
+      <excludeFolder url="file://$MODULE_DIR$/data_ingestion_service/agent/tools/data_ingestion_service/DIS_logs" />
+      <excludeFolder url="file://$MODULE_DIR$/sentiment_agent/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at F:\project_voc\Sentiment-Voice-of-Customer-VoC-Analytics-Platform\data_ingestion_service\.venv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at F:\project_voc\Sentiment-Voice-of-Customer-VoC-Analytics-Platform\sentiment_agent\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
