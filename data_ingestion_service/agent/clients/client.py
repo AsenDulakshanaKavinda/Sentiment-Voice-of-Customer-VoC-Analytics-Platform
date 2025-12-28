@@ -9,7 +9,9 @@ from langchain_mistralai import ChatMistralAI
 from data_ingestion_service.agent.tools.language_detector import detect_language_translate
 from data_ingestion_service.agent.tools.handle_slang import expand_slang
 from data_ingestion_service.agent.tools.clean_and_anonymize import clean_and_anonymize_text
-from data_ingestion_service.schemas.common_output_schema import CommonOutputSchema
+from data_ingestion_service.agent.tools.generate_id import generate_id
+from data_ingestion_service.agent.tools.generate_timestamp import generate_timestamp
+
 
 from data_ingestion_service.utils.exception_config import ProjectException
 from data_ingestion_service.utils.logger_config import log
@@ -22,7 +24,7 @@ def load_model():
             model_name="mistral-large-latest"
         )
         log.info("model loaded")
-        model_with_tools = model.bind_tools([detect_language_translate, expand_slang, clean_and_anonymize_text])
+        model_with_tools = model.bind_tools([generate_id, generate_timestamp, detect_language_translate, expand_slang, clean_and_anonymize_text])
         log.info("Model loaded with tools...")
         return model_with_tools
     except Exception as e:

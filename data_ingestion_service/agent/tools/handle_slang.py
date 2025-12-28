@@ -25,7 +25,8 @@ def expand_slang(text):
                 expanded.append(SLANG_DICT[key])
             else:
                 expanded.append(word)
-        log.info("Expanded Slang Words: {}".format(expanded))
+        # log.info("Expanded Slang Words: {}".format(expanded))
+        log.info("Expanded Slang Words")
         return ''.join(expanded)
     except Exception as e:
         ProjectException(
