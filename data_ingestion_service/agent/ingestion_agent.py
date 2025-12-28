@@ -10,6 +10,8 @@ from langchain_core.messages import AIMessage, ToolMessage
 from data_ingestion_service.agent.tools.handle_slang import expand_slang
 from data_ingestion_service.agent.tools.language_detector import detect_language_translate
 from data_ingestion_service.agent.tools.clean_and_anonymize import clean_and_anonymize_text
+from data_ingestion_service.agent.tools.generate_timestamp import generate_timestamp
+from data_ingestion_service.agent.tools.generate_id import generate_id
 
 # Assuming you have a dictionary mapping tool names to their callable functions
 # Replace with your actual tools, e.g., from langchain.tools import expand_slang, detect_language_translate, clean_and_anonymize_text
@@ -17,6 +19,8 @@ tools_dict = {
     "expand_slang": expand_slang,  # Import and add your tools here
     "detect_language_translate": detect_language_translate,
     "clean_and_anonymize_text": clean_and_anonymize_text,
+    "generate_timestamp": generate_timestamp,
+    "generate_id": generate_id
     # Add any other tools mentioned in the prompt
 }
 
@@ -58,6 +62,7 @@ def ingest_logs(log_data):
 
                 if tool_name in tools_dict:
                     tool_result = tools_dict[tool_name].invoke(tool_args)
+                    log.info(f"use tool: {tool_name}")
                 else:
                     tool_result = "Tool not found."
 
