@@ -1,8 +1,8 @@
 
 from fastapi import APIRouter, Request, Response, HTTPException
-from sentiment_agent.agent.sentiment_analytic_agent import sentiment_analytic
-from sentiment_agent.utils.logger_config import log
 
+from src.agent.sentiment_analytic_agent import sentiment_analytic
+from src.utils import log, ProjectException
 
 router = APIRouter()
 

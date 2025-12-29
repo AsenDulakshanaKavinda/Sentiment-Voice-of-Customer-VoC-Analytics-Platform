@@ -1,6 +1,7 @@
 
 from langchain_core.prompts import ChatPromptTemplate
-from sentiment_agent.schemas.sentiment_parser import sentiment_agent_parser
+
+from src.schemas.sentiment_parser import sentiment_agent_parser
 
 
 system_prompt_v1 = """
@@ -130,7 +131,6 @@ Your task is to perform sentiment analysis exactly as defined, without deviation
 
 7. Output Schema:
     The output must conform exactly to the following JSON schema:
-
     ```json
     
       "sentiment": 
@@ -144,8 +144,6 @@ Your task is to perform sentiment analysis exactly as defined, without deviation
         "sarcasm_detected": false,
         "implicit_sentiment": false,
         "dis_agent_message": null
-      
-    
     ```
 
 8. Confidence Scoring:

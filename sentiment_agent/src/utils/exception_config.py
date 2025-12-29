@@ -5,7 +5,7 @@
 import sys
 import traceback
 from typing import Optional, Dict, Any
-from data_ingestion_service.utils.logger_config import log
+from src.utils.logger_config import log
 
 def format_error_message(error: Exception, tb) -> str:
     """

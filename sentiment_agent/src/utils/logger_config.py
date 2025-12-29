@@ -17,8 +17,8 @@ def get_logger(name: str = 'sentiment-agent-service'):
         logger.addHandler(console_handler)
 
         # 2. setup file handler with rotation (max 5MB, keep 3 backup)
-        os.makedirs(name='sentiment_agent\SA_logs', exist_ok=True)
-        file_handler = RotatingFileHandler("sentiment_agent\SA_logs\sa_logs", maxBytes=5242880, backupCount=3)
+        os.makedirs(name='logs', exist_ok=True)
+        file_handler = RotatingFileHandler("logs\log.log", maxBytes=5242880, backupCount=3)
         file_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s | %(levelname)s | %(message)s'))
         logger.addHandler(file_handler)
 

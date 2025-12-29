@@ -1,10 +1,10 @@
 import json
 
-from sentiment_agent.utils.logger_config import log
-from sentiment_agent.utils.exception_config import ProjectException
+from src.utils import log, ProjectException
+from src.agent.clients.client import sentiment_model
+from src.agent.prompts.prompt import sentiment_analysis_prompt_v1
 
-from sentiment_agent.agent.prompts.prompt import sentiment_analysis_prompt_v1
-from sentiment_agent.agent.clients.client import sentiment_model
+
 
 def sentiment_analytic(customer_feedback):
     try:
