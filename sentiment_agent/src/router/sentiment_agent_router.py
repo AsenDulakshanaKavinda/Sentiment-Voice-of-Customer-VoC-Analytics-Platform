@@ -16,7 +16,7 @@ async def start_sentiment_agent(request: Request):
         log.info("Starting sentiment agent")
         result = sentiment_analytic(payload)
 
-        log.info(f"Sentiment agent result: {result}")
+        log.info(f"Sentiment agent result: {result.content}")
 
         return {
             "status": "success",

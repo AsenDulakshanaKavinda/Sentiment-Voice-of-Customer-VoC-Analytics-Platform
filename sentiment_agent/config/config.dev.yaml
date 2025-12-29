@@ -1,0 +1,18 @@
+database:
+  host: localhost  # Dev default
+  port: 5432
+  user: dev_user
+  password: ${DB_PASSWORD}  # Resolved from env
+
+api:
+  endpoint: https://api.example.com
+  key: ${API_KEY}
+
+
+LLM:
+  api_key: MISTRAL_API_KEY
+  model_name: mistral-large-latest
+
+
+
+
