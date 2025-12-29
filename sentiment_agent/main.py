@@ -3,6 +3,7 @@
 from fastapi import FastAPI
 from starlette.middleware.base import BaseHTTPMiddleware
 from sentiment_agent.router.sentiment_agent_router import router
+from sentiment_agent.utils.logger_config import log
 from sentiment_agent.middleware.log_middleware import log_middleware
 
 

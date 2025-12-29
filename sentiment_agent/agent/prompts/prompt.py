@@ -89,21 +89,21 @@ Your task is to perform sentiment analysis exactly as defined, without deviation
     The input will always be provided in the following JSON structure:
 
     ```json
-    {
+    
       "id": "",
       "source_type": "",
       "timestamp": "",
       "customer_identifier": "",
       "text_content": "",
-      "metadata": {
+      "metadata": 
         "rating": 0,
         "subject": "",
         "platform": "",
         "log_id": "",
         "dis_agent_message": ""
-      },
+      ,
       "original_raw": ""
-    }
+    
     ```
 
     Field descriptions:
@@ -132,20 +132,20 @@ Your task is to perform sentiment analysis exactly as defined, without deviation
     The output must conform exactly to the following JSON schema:
 
     ```json
-    {
-      "sentiment": {
+    
+      "sentiment": 
         "polarity": "",
         "intensity": "",
         "confidence": 0.0,
         "is_mixed": false
-      },
+      ,
       "emotions": [],
-      "metadata": {
+      "metadata": 
         "sarcasm_detected": false,
         "implicit_sentiment": false,
         "dis_agent_message": null
-      }
-    }
+      
+    
     ```
 
 8. Confidence Scoring:
@@ -162,6 +162,9 @@ Your task is to perform sentiment analysis exactly as defined, without deviation
         - No recommendations
         - No topic inference
         - No memory access
+        - Do not show the thinking process
+        - Do not add any other sentences
+        - Output only the structured output
 
 Strict adherence to all instructions above is mandatory.
 {format_instructions}
