@@ -24,20 +24,3 @@ class SentimentAgentOutput(BaseModel):
 
 
 
-
-{
-  "sentiment": {
-    "polarity": "negative",
-    "intensity": "high",
-    "confidence": 0.92,
-    "is_mixed": false
-  },
-  "emotions": ["frustration", "anger"],
-  "metadata": {
-    "sarcasm_detected": true,
-    "implicit_sentiment": true,
-    "dis_agent_message": null
-  }
-}
-
-
