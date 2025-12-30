@@ -6,7 +6,7 @@ from src.utils import log, ProjectException
 
 @tool
 def generate_timestamp():
-    """  """
+    """ Generate the timestamp Data Ingestion """
     try:
         log.info("Generating timestamp")
         return datetime.now()
