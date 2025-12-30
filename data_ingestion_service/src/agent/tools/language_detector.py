@@ -4,8 +4,7 @@ import pycld2 as cld2
 import unicodedata
 from blingfire import text_to_sentences
 
-from data_ingestion_service.utils.logger_config import log
-from data_ingestion_service.utils.exception_config import ProjectException
+from src.utils import log, ProjectException
 
 
 @tool

@@ -2,19 +2,12 @@
 import os
 from dotenv import load_dotenv; load_dotenv()
 
-
-
 from langchain_mistralai import ChatMistralAI
 
-from data_ingestion_service.agent.tools.language_detector import detect_language_translate
-from data_ingestion_service.agent.tools.handle_slang import expand_slang
-from data_ingestion_service.agent.tools.clean_and_anonymize import clean_and_anonymize_text
-from data_ingestion_service.agent.tools.generate_id import generate_id
-from data_ingestion_service.agent.tools.generate_timestamp import generate_timestamp
+from src.agent.tools import detect_language_translate, expand_slang, clean_and_anonymize_text, generate_id, generate_timestamp
 
+from src.utils import log, ProjectException
 
-from data_ingestion_service.utils.exception_config import ProjectException
-from data_ingestion_service.utils.logger_config import log
 
 os.environ["MISTRAL_API_KEY"]=os.getenv("MISTRAL_API_KEY")
 

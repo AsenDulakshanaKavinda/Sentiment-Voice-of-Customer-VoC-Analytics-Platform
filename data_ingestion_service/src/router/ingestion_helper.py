@@ -1,5 +1,5 @@
 import json
-from data_ingestion_service.utils.logger_config import log
+from src.utils import log, ProjectException
 from fastapi import FastAPI, Depends, HTTPException, status
 
 def extract_payload(raw_payload: bytes):

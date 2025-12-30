@@ -2,8 +2,7 @@ from datetime import datetime
 
 from langchain.tools import tool
 
-from data_ingestion_service.utils.logger_config import log
-from data_ingestion_service.utils.exception_config import ProjectException
+from src.utils import log, ProjectException
 
 @tool
 def generate_timestamp():

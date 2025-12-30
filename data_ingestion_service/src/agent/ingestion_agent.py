@@ -1,28 +1,27 @@
 
 import json
 
-from data_ingestion_service.utils.logger_config import log
-from data_ingestion_service.utils.exception_config import ProjectException
-from data_ingestion_service.agent.prompts.prompt import data_ingestion_prompt
-from data_ingestion_service.agent.clients.client import loaded_model_with_tools
+from src.utils import log, ProjectException
+
+from src.agent.tools import expand_slang, detect_language_translate, clean_and_anonymize_text, generate_timestamp, generate_id
+from src.agent.clients.client import loaded_model_with_tools
+from src.agent.prompts.prompt import data_ingestion_prompt
+
 from langchain_core.messages import AIMessage, ToolMessage
 
-from data_ingestion_service.agent.tools.handle_slang import expand_slang
-from data_ingestion_service.agent.tools.language_detector import detect_language_translate
-from data_ingestion_service.agent.tools.clean_and_anonymize import clean_and_anonymize_text
 
-# Assuming you have a dictionary mapping tool names to their callable functions
-# Replace with your actual tools, e.g., from langchain.tools import expand_slang, detect_language_translate, clean_and_anonymize_text
 tools_dict = {
-    "expand_slang": expand_slang,  # Import and add your tools here
+    "expand_slang": expand_slang, 
     "detect_language_translate": detect_language_translate,
     "clean_and_anonymize_text": clean_and_anonymize_text,
-    # Add any other tools mentioned in the prompt
+    "generate_timestamp": generate_timestamp,
+    "generate_id": generate_id,
+    # todo - Add any other tools mentioned in the prompt
 }
 
 
 def ingest_logs(log_data):
-    """  """
+    """ Data ingestion agent that read, clean and stucture log data for sentiment analysis """
 
     try:
 
