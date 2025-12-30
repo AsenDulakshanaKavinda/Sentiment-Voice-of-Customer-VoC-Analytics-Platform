@@ -8,7 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/data_ingestion_service/agent/tools/data_ingestion_service/DIS_logs" />
       <excludeFolder url="file://$MODULE_DIR$/sentiment_agent/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at F:\project_voc\Sentiment-Voice-of-Customer-VoC-Analytics-Platform\sentiment_agent\.venv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 virtualenv at F:\project_voc\Sentiment-Voice-of-Customer-VoC-Analytics-Platform\sentiment_agent\.venv (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
