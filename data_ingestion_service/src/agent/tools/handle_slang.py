@@ -1,10 +1,10 @@
 
 import re
 from langchain.tools import tool
-from data_ingestion_service.utils.exception_config import ProjectException
-from data_ingestion_service.utils.logger_config import log
+from src.utils import log, ProjectException
 
-from data_ingestion_service.constants.constant import SLANG_DICT
+
+from src.constants.constant import SLANG_DICT
 
 
 

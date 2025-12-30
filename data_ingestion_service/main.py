@@ -2,8 +2,12 @@
 from fastapi import FastAPI
 from starlette.responses import RedirectResponse
 
-from data_ingestion_service.router.data_ingestion import router
-from data_ingestion_service.middleware.log_middleware import log_middleware
+from src.utils import log, ProjectException
+
+from src.router.data_ingestion import router
+from src.middleware.log_middleware import log_middleware
+
+
 from starlette.middleware.base import BaseHTTPMiddleware
 
 
